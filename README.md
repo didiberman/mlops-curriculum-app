@@ -47,10 +47,3 @@ A web application presenting a structured learning path and curriculum for MLOps
 
 2. Open your browser and visit `http://localhost:5173` (or the address provided in your terminal).
 
-## Contributing
-
-(Add instructions on how to contribute)
-
-## License
-
-(Add license information) 
