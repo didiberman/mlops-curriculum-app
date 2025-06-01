@@ -3,7 +3,9 @@ import { WeekData } from '../types';
 export const weekData: WeekData[] = [
   {
     title: "MLOps & DevOps Foundations",
+    intro: "Week 1 establishes the core tools and practices that form the backbone of modern software development. These foundational skills are essential for any MLOps role, as they enable you to version control your code, containerize applications, and automate deployments. This knowledge will be used throughout your career to manage and deploy ML systems at scale.",
     goal: "Understand what MLOps is, and set up your tools",
+    reflection: "By mastering Git, Docker, and CI/CD this week, you've built the foundation for modern software development. These tools are the building blocks that enable collaboration, reproducibility, and automation in ML systems. You now understand how to track changes, package applications, and automate deployments - skills that will be essential throughout your MLOps journey.",
     days: {
       "Mon": [
         "Learn what MLOps and DevOps mean (YouTube + madewithml.com overview)",
@@ -82,7 +84,9 @@ export const weekData: WeekData[] = [
   },
   {
     title: "Serve a Model via API",
+    intro: "Week 2 bridges the gap between data science and production engineering. You'll learn how to take a trained model and make it accessible to the world through an API. This is a critical skill in MLOps, as it represents the transition from experimental notebooks to production-ready systems that can serve predictions at scale.",
     goal: "Train and deploy a simple ML model as an API",
+    reflection: "This week you've transformed ML models from static files into living, breathing services. You now understand how to wrap models in APIs, containerize them, and set up automated testing. These skills bridge the gap between data science and production engineering, enabling you to deploy models that can serve real-world predictions at scale.",
     days: {
       "Mon": [
         "Train a simple Scikit-learn model on Iris or Titanic dataset",
@@ -157,7 +161,9 @@ export const weekData: WeekData[] = [
   },
   {
     title: "Kubernetes & Cloud Basics",
+    intro: "Week 3 introduces you to the world of container orchestration and cloud infrastructure. Kubernetes is the industry standard for deploying and managing containerized applications at scale. Understanding how to deploy ML systems to the cloud and manage them with Kubernetes is crucial for handling production ML workloads.",
     goal: "Learn Kubernetes and deploy your container",
+    reflection: "You've now entered the world of container orchestration and cloud infrastructure. With Kubernetes knowledge, you can manage and scale ML applications across clusters of machines. This is essential for production ML systems that need high availability, scalability, and efficient resource management. Your Docker skills from earlier weeks now extend to managing entire clusters of containers.",
     days: {
       "Mon": [
         "Learn K8s terms: pod, deployment, service, ingress",
@@ -232,7 +238,9 @@ export const weekData: WeekData[] = [
   },
   {
     title: "Monitoring, Logs & Model Tracking",
+    intro: "Week 4 focuses on the operational aspects of ML systems. In production, it's crucial to monitor model performance, track data drift, and maintain system health. These observability skills are what separate hobbyist ML projects from professional MLOps implementations.",
     goal: "Add observability to your deployed model",
+    reflection: "This week has equipped you with the observability skills needed for production ML systems. You now understand how to monitor model performance, track experiments, and maintain system health. These skills are crucial for detecting issues early, ensuring model reliability, and maintaining high-quality ML services in production.",
     days: {
       "Mon": [
         "Learn about monitoring in ML (why it's needed)",
@@ -307,7 +315,9 @@ export const weekData: WeekData[] = [
   },
   {
     title: "Infrastructure as Code",
+    intro: "Week 5 teaches you how to automate infrastructure setup using code. This is essential for reproducible deployments and scaling ML systems. Infrastructure as Code (IaC) ensures your environments are consistent and can be version controlled, a crucial practice in professional MLOps.",
     goal: "Automate deployment and infrastructure setup",
+    reflection: "You've learned to treat infrastructure as code, enabling reproducible and automated deployments. This is crucial for maintaining consistent environments across development and production. Your ability to version control infrastructure, manage secrets, and automate deployments makes you valuable in modern ML teams where infrastructure reliability is as important as the models themselves.",
     days: {
       "Mon": [
         "Learn about Terraform (basics, syntax)",
@@ -382,7 +392,9 @@ export const weekData: WeekData[] = [
   },
   {
     title: "Project Week (Portfolio Build)",
+    intro: "Week 6 is where you bring everything together in a real-world project. This is your opportunity to demonstrate your MLOps skills by building a complete system that showcases automated training, deployment, monitoring, and infrastructure management. This project will be a key piece in your portfolio for job applications.",
     goal: "Build a full project using everything you've learned",
+    reflection: "This week represents the culmination of your technical learning. You've built a complete MLOps project that demonstrates your ability to create production-ready ML systems. This project showcases your skills in model deployment, monitoring, infrastructure management, and automation - exactly what employers look for in MLOps engineers.",
     days: {
       "Mon-Wed": [
         "Choose a project: Personal GPT AI email responder, Medium article summarizer with ML model, or Resume/job-matcher using NLP",
@@ -449,7 +461,9 @@ export const weekData: WeekData[] = [
   },
   {
     title: "Resume & Job Prep",
+    intro: "Week 7 shifts focus to presenting your skills to potential employers. Your technical abilities are now solid, so it's time to package them effectively. This week helps you translate your projects and knowledge into a compelling story that resonates with hiring managers in the MLOps space.",
     goal: "Apply to jobs and prepare for technical interviews",
+    reflection: "You've learned to present your technical skills in a way that resonates with employers. Your resume, portfolio, and interview preparation now effectively communicate your MLOps expertise. You understand how to discuss your projects professionally and demonstrate your value to potential employers.",
     days: {
       "Mon": [
         "Write or update your MLOps-focused resume",
@@ -522,7 +536,9 @@ export const weekData: WeekData[] = [
   },
   {
     title: "Final Polish & Apply",
+    intro: "Week 8 is the launch pad for your MLOps career. With your skills sharp and portfolio polished, it's time to actively pursue opportunities. This week focuses on presenting yourself professionally and beginning your job search with confidence, knowing you have the skills to back up your applications.",
     goal: "Polish everything and apply like crazy",
+    reflection: "You've reached the final milestone in your MLOps journey. Your portfolio, online presence, and job application strategy are now refined and professional. You're ready to enter the job market with confidence, backed by real technical skills and practical experience in building and deploying ML systems.",
     days: {
       "Mon-Wed": [
         "Polish GitHub READMEs",
@@ -579,6 +595,44 @@ export const weekData: WeekData[] = [
       "Follow up consistently",
       "Stay organized",
       "Keep learning"
-    ]
+    ],
+    portfolioGuide: {
+      title: "Your MLOps Portfolio Checklist",
+      description: "By the end of this course, you should have the following projects in your GitHub portfolio:",
+      projects: [
+        {
+          name: "Basic ML Model API",
+          skills: ["FastAPI/Flask", "Docker", "CI/CD"],
+          description: "A simple ML model (like Iris classifier) wrapped in a REST API and containerized."
+        },
+        {
+          name: "MLOps Pipeline Project",
+          skills: ["MLflow", "Monitoring", "Kubernetes"],
+          description: "Complete ML system with training pipeline, monitoring, and deployment automation."
+        },
+        {
+          name: "Infrastructure as Code Demo",
+          skills: ["Terraform", "Cloud Infrastructure", "Security"],
+          description: "Example of automated cloud infrastructure setup for ML workloads."
+        },
+        {
+          name: "Production ML Application",
+          skills: ["Full Stack", "ML Engineering", "DevOps"],
+          description: "Real-world application (like the email responder or article summarizer) showcasing end-to-end MLOps."
+        },
+        {
+          name: "Monitoring Dashboard",
+          skills: ["Data Visualization", "Metrics", "Frontend"],
+          description: "Custom dashboard for ML model monitoring and performance tracking."
+        }
+      ],
+      tips: [
+        "Each project should have a professional README with setup instructions",
+        "Include architecture diagrams and documentation",
+        "Demonstrate best practices in code organization",
+        "Show testing and monitoring implementations",
+        "Highlight security considerations and proper secret management"
+      ]
+    }
   }
 ];
